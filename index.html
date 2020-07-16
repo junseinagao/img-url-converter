@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Drive Img Url Converter</title>
+  </head>
+  <body>
+    <div>
+      <h1>Google Drive Img Url Converter</h1>
+      <h2>
+        Google Driveの画像の共有リンクを直接表示できる画像アドレスに変換します。
+      </h2>
+      <p>
+        This program convert shared link Image URL of Google Drive to new URL
+        you can use in img tag or access directly.
+      </p>
+    </div>
+    <div>
+      <h2>↓Google Driveで画像の共有リンクを取得して入力してください↓</h2>
+      <p>↓Paste shared URL you copied at Google Drive.↓</p>
+      <input id="input-url" type="url" />
+      <button id="button-convert">変換/Convert</button>
+    </div>
+    <div>
+      <h2>↓変換されたURL↓</h2>
+      <p>↓Converted URL↓</p>
+      <input id="converted-url" type="url" readonly="readonly" />
+      <button id="button-copy">URLをコピー/Copy URL</button>
+    </div>
+    <div>
+      <p>
+        参考
+        <a href="https://qiita.com/arribux/items/0394968fa318d9309d33"
+          >「Google Drive に保存した画像を直接呼び出せるURLの取得」(Qiita)</a
+        >
+      </p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
